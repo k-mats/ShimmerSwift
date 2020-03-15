@@ -109,7 +109,7 @@ final public class ShimmeringLayer: CALayer {
         }
     }
 
-    var contentLayer: CALayer? {
+    public var contentLayer: CALayer? {
         didSet {
             maskLayer = nil
             if let content = contentLayer {
